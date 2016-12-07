@@ -1,0 +1,415 @@
+# Logfile created on 2016-09-08 20:11:02 -0700 by logger.rb/54072
+2016-09-09|03:11:02.998961|11494| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:11:02.999137|11494| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:11:02.999235|11494| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:11:02.999328|11494| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:11:02.999399|11494| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:11:02.999482|11494| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|03:11:02.999554|11494| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:11:02.999639|11494| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:11:02.999719|11494| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:11:02.999801|11494| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:11:02.999883|11494| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:11:02.999954|11494| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:11:03.000024|11494| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:11:03.000103|11494| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:11:03.000181|11494| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:11:03.000247|11494| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:11:03.000314|11494| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:11:03.000490|11494| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:11:03.003005|11494|FATAL|cucumber-chef:115:rescue in setup|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:81:in `rescue in load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:69:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:88:in `setup'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|03:13:55.367664|11542| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:13:55.367852|11542| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:13:55.367938|11542| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:13:55.368047|11542| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:13:55.368128|11542| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:13:55.368225|11542| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber"
+2016-09-09|03:13:55.368342|11542| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:13:55.368421|11542| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:13:55.368514|11542| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:13:55.368598|11542| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:13:55.368703|11542| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:13:55.368785|11542| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:13:55.368869|11542| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:13:55.368976|11542| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:13:55.369057|11542| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:13:55.369133|11542| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:13:55.369208|11542| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:13:55.369411|11542| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:13:55.371871|11542|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|03:18:44.392453|11764| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:18:44.392647|11764| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:18:44.392761|11764| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:18:44.392843|11764| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:18:44.392927|11764| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:18:44.393033|11764| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber"
+2016-09-09|03:18:44.393115|11764| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:18:44.393199|11764| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:18:44.393323|11764| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:18:44.393411|11764| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:18:44.393493|11764| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:18:44.393579|11764| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:18:44.393684|11764| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:18:44.393769|11764| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:18:44.393851|11764| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:18:44.393955|11764| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:18:44.394028|11764| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:18:44.394205|11764| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:18:44.396601|11764|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|03:35:41.169818|12012| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:35:41.170006|12012| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:35:41.170119|12012| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:35:41.170202|12012| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:35:41.170283|12012| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:35:41.170365|12012| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber"
+2016-09-09|03:35:41.170479|12012| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:35:41.170557|12012| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:35:41.170658|12012| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:35:41.170740|12012| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:35:41.170842|12012| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:35:41.170929|12012| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:35:41.171010|12012| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:35:41.171114|12012| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:35:41.171233|12012| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:35:41.171317|12012| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:35:41.171411|12012| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:35:41.171579|12012| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:35:41.173874|12012|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|03:38:56.545237|12068| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:38:56.545417|12068| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:38:56.545503|12068| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:38:56.545590|12068| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:38:56.545665|12068| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:38:56.545755|12068| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|03:38:56.545831|12068| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:38:56.545926|12068| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:38:56.546014|12068| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:38:56.546094|12068| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:38:56.546168|12068| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:38:56.546263|12068| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:38:56.546337|12068| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:38:56.546424|12068| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:38:56.546512|12068| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:38:56.546592|12068| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:38:56.546657|12068| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:38:56.546842|12068| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:38:56.549350|12068|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|03:38:56.549495|12068|FATAL|cucumber-chef:115:rescue in setup|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:88:in `setup'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|03:39:08.221458|12073| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:39:08.221628|12073| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:39:08.221720|12073| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:39:08.221795|12073| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:39:08.221877|12073| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:39:08.221965|12073| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|03:39:08.222049|12073| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:39:08.222139|12073| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:39:08.222231|12073| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:39:08.222322|12073| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:39:08.222398|12073| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:39:08.222484|12073| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:39:08.222565|12073| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:39:08.222645|12073| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:39:08.222721|12073| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:39:08.222802|12073| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:39:08.222871|12073| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:39:08.223076|12073| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:39:08.225596|12073|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|03:39:08.225736|12073|FATAL|cucumber-chef:115:rescue in setup|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:88:in `setup'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|03:39:21.339596|12078| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:39:21.339774|12078| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:39:21.339864|12078| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:39:21.339953|12078| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:39:21.340037|12078| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:39:21.340130|12078| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|03:39:21.340206|12078| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:39:21.340281|12078| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:39:21.340380|12078| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:39:21.340471|12078| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:39:21.340548|12078| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:39:21.340626|12078| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:39:21.340709|12078| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:39:21.340785|12078| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:39:21.340860|12078| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:39:21.340938|12078| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:39:21.341009|12078| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:39:21.341194|12078| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:39:21.343666|12078|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|03:39:21.343800|12078|FATAL|cucumber-chef:495:rescue in displayconfig|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:460:in `displayconfig'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|03:41:08.533599|12109| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|03:41:08.533808|12109| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/Downloads/chef"
+2016-09-09|03:41:08.533890|12109| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/Downloads/chef/.cucumber-chef/config.rb"
+2016-09-09|03:41:08.533978|12109| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/Downloads/chef/Labfile"
+2016-09-09|03:41:08.534066|12109| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/Downloads/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|03:41:08.534149|12109| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|03:41:08.534261|12109| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|03:41:08.534335|12109| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:41:08.534425|12109| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|03:41:08.534513|12109| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|03:41:08.534599|12109| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|03:41:08.534685|12109| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|03:41:08.534760|12109| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|03:41:08.534843|12109| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|03:41:08.534918|12109| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|03:41:08.534989|12109| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|03:41:08.535063|12109| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|03:41:08.535308|12109| INFO|utility.rb:136:boot|boot(/home/mark/Downloads/chef/.cucumber-chef/config.rb)
+2016-09-09|03:41:08.537813|12109|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|03:41:08.537953|12109|FATAL|cucumber-chef:495:rescue in displayconfig|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:460:in `displayconfig'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|04:18:10.694324|13096| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|04:18:10.694507|13096| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/chef"
+2016-09-09|04:18:10.694588|13096| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/chef/.cucumber-chef/config.rb"
+2016-09-09|04:18:10.694667|13096| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/chef/Labfile"
+2016-09-09|04:18:10.694770|13096| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|04:18:10.694848|13096| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber"
+2016-09-09|04:18:10.694926|13096| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|04:18:10.695031|13096| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:18:10.695118|13096| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|04:18:10.695247|13096| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|04:18:10.695363|13096| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|04:18:10.695451|13096| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|04:18:10.695531|13096| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|04:18:10.695610|13096| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|04:18:10.695710|13096| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|04:18:10.695785|13096| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:18:10.695854|13096| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|04:18:10.696045|13096| INFO|utility.rb:136:boot|boot(/home/mark/chef/.cucumber-chef/config.rb)
+2016-09-09|04:18:10.698333|13096|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|04:18:43.066658|13118| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|04:18:43.066838|13118| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/chef"
+2016-09-09|04:18:43.066931|13118| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/chef/.cucumber-chef/config.rb"
+2016-09-09|04:18:43.067015|13118| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/chef/Labfile"
+2016-09-09|04:18:43.067097|13118| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|04:18:43.067223|13118| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|04:18:43.067302|13118| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|04:18:43.067414|13118| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:18:43.067496|13118| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|04:18:43.067576|13118| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|04:18:43.067651|13118| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|04:18:43.067738|13118| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|04:18:43.067812|13118| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|04:18:43.067901|13118| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|04:18:43.067978|13118| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|04:18:43.068056|13118| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:18:43.068130|13118| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|04:18:43.068315|13118| INFO|utility.rb:136:boot|boot(/home/mark/chef/.cucumber-chef/config.rb)
+2016-09-09|04:18:43.079709|13118|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|04:18:43.079922|13118|FATAL|cucumber-chef:115:rescue in setup|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:88:in `setup'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|04:19:18.831190|13134| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|04:19:18.831408|13134| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/chef"
+2016-09-09|04:19:18.831502|13134| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/chef/.cucumber-chef/config.rb"
+2016-09-09|04:19:18.831580|13134| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/chef/Labfile"
+2016-09-09|04:19:18.831670|13134| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|04:19:18.831753|13134| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|04:19:18.831840|13134| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|04:19:18.831913|13134| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:19:18.832022|13134| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|04:19:18.832118|13134| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|04:19:18.832207|13134| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|04:19:18.832283|13134| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|04:19:18.832367|13134| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|04:19:18.832442|13134| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|04:19:18.832524|13134| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|04:19:18.832601|13134| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:19:18.832670|13134| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|04:19:18.832895|13134| INFO|utility.rb:136:boot|boot(/home/mark/chef/.cucumber-chef/config.rb)
+2016-09-09|04:19:18.835412|13134|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|04:19:18.835561|13134|FATAL|cucumber-chef:115:rescue in setup|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:88:in `setup'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|04:20:02.193974|13198| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|04:20:02.194153|13198| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/chef"
+2016-09-09|04:20:02.194243|13198| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/chef/.cucumber-chef/config.rb"
+2016-09-09|04:20:02.194319|13198| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/chef/Labfile"
+2016-09-09|04:20:02.194411|13198| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|04:20:02.194488|13198| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|04:20:02.194577|13198| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|04:20:02.194666|13198| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:20:02.194755|13198| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|04:20:02.194843|13198| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|04:20:02.194916|13198| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|04:20:02.195002|13198| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|04:20:02.195088|13198| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|04:20:02.195359|13198| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|04:20:02.195462|13198| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|04:20:02.195534|13198| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:20:02.195608|13198| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|04:20:02.195779|13198| INFO|utility.rb:136:boot|boot(/home/mark/chef/.cucumber-chef/config.rb)
+2016-09-09|04:20:02.198139|13198|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|04:20:02.198272|13198|FATAL|cucumber-chef:495:rescue in displayconfig|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:460:in `displayconfig'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|04:24:25.366426|13317| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|04:24:25.366604|13317| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/chef"
+2016-09-09|04:24:25.366694|13317| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/chef/.cucumber-chef/config.rb"
+2016-09-09|04:24:25.366770|13317| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/chef/Labfile"
+2016-09-09|04:24:25.366858|13317| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|04:24:25.366950|13317| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|04:24:25.367026|13317| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|04:24:25.367098|13317| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:24:25.367217|13317| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|04:24:25.367294|13317| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|04:24:25.367380|13317| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|04:24:25.367458|13317| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|04:24:25.367532|13317| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|04:24:25.367610|13317| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|04:24:25.367682|13317| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|04:24:25.367746|13317| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:24:25.367818|13317| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|04:24:25.368006|13317| INFO|utility.rb:136:boot|boot(/home/mark/chef/.cucumber-chef/config.rb)
+2016-09-09|04:24:25.370390|13317|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|04:24:25.370526|13317|FATAL|cucumber-chef:495:rescue in displayconfig|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:460:in `displayconfig'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
+2016-09-09|04:25:03.751012|13328| INFO|log_helper.rb:33:log_page_break|==============================================
+2016-09-09|04:25:03.751243|13328| INFO|log_helper.rb:29:log_key_value| CHEF_REPO..............: "/home/mark/chef"
+2016-09-09|04:25:03.751327|13328| INFO|log_helper.rb:29:log_key_value| CONFIG_RB..............: "/home/mark/chef/.cucumber-chef/config.rb"
+2016-09-09|04:25:03.751412|13328| INFO|log_helper.rb:29:log_key_value| LABFILE................: "/home/mark/chef/Labfile"
+2016-09-09|04:25:03.751482|13328| INFO|log_helper.rb:29:log_key_value| LOG_FILE...............: "/home/mark/chef/.cucumber-chef/cucumber-chef.log"
+2016-09-09|04:25:03.751558|13328| INFO|log_helper.rb:29:log_key_value| PROGRAM................: "/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef"
+2016-09-09|04:25:03.751645|13328| INFO|log_helper.rb:29:log_key_value| UNAME..................: "Linux mark 3.13.0-92-generic #139-Ubuntu SMP Tue Jun 28 20:42:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux"
+2016-09-09|04:25:03.751713|13328| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:25:03.751807|13328| INFO|log_helper.rb:29:log_key_value| CUCUMBER_CHEF_VERSION..: "3.0.8"
+2016-09-09|04:25:03.751890|13328| INFO|log_helper.rb:29:log_key_value| FOG_VERSION............: "1.38.0"
+2016-09-09|04:25:03.751961|13328| INFO|log_helper.rb:29:log_key_value| RUBY_ENGINE............: "ruby"
+2016-09-09|04:25:03.752038|13328| INFO|log_helper.rb:29:log_key_value| RUBY_PATCHLEVEL........: 319
+2016-09-09|04:25:03.752119|13328| INFO|log_helper.rb:29:log_key_value| RUBY_PLATFORM..........: "x86_64-linux"
+2016-09-09|04:25:03.752197|13328| INFO|log_helper.rb:29:log_key_value| RUBY_VERSION...........: "2.2.5"
+2016-09-09|04:25:03.752276|13328| INFO|log_helper.rb:29:log_key_value| ZTK_VERSION............: "3.2.0"
+2016-09-09|04:25:03.752354|13328| INFO|log_helper.rb:33:log_page_break|----------------------------------------------
+2016-09-09|04:25:03.752417|13328| INFO|utility.rb:135:boot|loading cucumber-chef v3.0.8
+2016-09-09|04:25:03.752592|13328| INFO|utility.rb:136:boot|boot(/home/mark/chef/.cucumber-chef/config.rb)
+2016-09-09|04:25:03.754958|13328|FATAL|config.rb:126:verify_provider_keys|Configuration incomplete, missing provider configuration keys: identity_file
+2016-09-09|04:25:03.755099|13328|FATAL|cucumber-chef:495:rescue in displayconfig|/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:127:in `verify_provider_keys'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:94:in `verify'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/config.rb:72:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/lib/cucumber/chef/utility.rb:137:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:59:in `boot'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:460:in `displayconfig'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/home/mark/.rvm/gems/ruby-2.2.5/gems/cucumber-chef-3.0.8/bin/cucumber-chef:545:in `<top (required)>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `load'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/cucumber-chef:23:in `<main>'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `eval'
+/home/mark/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:15:in `<main>'
